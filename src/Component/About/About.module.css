@@ -1,0 +1,59 @@
+.star{
+    position:relative ;
+}
+.back{
+    background-color: #1abc9c;
+ 
+}
+.abo{
+    font-size: 4rem !important;
+    line-height: 3.5rem;
+    text-align: center;
+    color: white;
+    padding-top: 10%;
+
+}
+.para{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    line-height: 38px;
+   
+}
+.star::after{
+    content: '';
+    background-color: white;
+    width: 100px;
+    height: 5px;
+    position: absolute;
+    top: 50%;
+ border-radius: 30px;
+}
+.star::before{
+       content: '';
+    background-color: white;
+    width: 100px;
+    height: 5px;
+    position: absolute;
+    top: 50%;
+    right: 53%;
+ border-radius: 30px;
+}
+.proitem{
+    position: relative;
+}
+.backpro{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+   align-items: center;
+   font-size: 40px;
+   opacity: 0;
+    justify-content: center;
+  position: absolute;
+  top: 0;
+}
+.backpro:hover{
+    opacity: 1;
+}
